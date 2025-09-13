@@ -1,0 +1,112 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+button {
+    text-decoration: none;
+}
+
+.btn {
+
+    text-shadow: 0.5px 0.5px 8px white;
+
+}
+
+.btn {
+    font-size: 25px;
+}
+
+.imge {
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgb(0, 0, 0)),
+        url("../images/bg22.jpg");
+    filter: brightness(1.2);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 5;
+    height: 60vh;
+    padding: 10px;
+    border-radius: 0 0 70px 70px;
+}
+
+
+.header h1 {
+
+    font-size: 50px;
+    color: white;
+    text-shadow: 0.5px 0.5px 8px white;
+    padding-top: 80px;
+}
+
+
+
+.header .card {
+    width: 90%;
+    text-shadow: 0.5px 0.5px 8px white;
+    box-shadow: 0.5px 0.5px 10px darkblue;
+}
+
+.header .card-footer .btn {
+    border-radius: 20px;
+}
+
+.gravity_section .astronaut img {
+    animation: floating 4s infinite ease-in-out;
+    margin-bottom: 50px;
+}
+
+@keyframes floating {
+
+    0% {
+        transform: translateY(0px);
+    }
+
+    50% {
+        transform: translateY(80px);
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+
+.footer {
+
+    height: 200px;
+    background-color: #171616"
+
+}
+
+.footer a {
+
+    width: 50px;
+    padding-top: 50px;
+}
+
+@media screen and (max-width:1200px) {
+
+    .gravity_section h1,
+    .cards-container h1 {
+        text-align: center;
+    }
+
+}
+
+
+@media screen and (max-width:650px) {
+
+    nav {
+        z-index: 5;
+    }
+
+    .logo_lg img {
+        width: 250px !important;
+        margin-top: 100px;
+        margin-bottom: 50px;
+    }
+}
