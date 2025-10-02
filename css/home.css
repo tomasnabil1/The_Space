@@ -5,6 +5,7 @@
 body, html {
     height: 100%;
     margin: 0;
+    overflow-x: hidden;
 }
 
 button {
@@ -76,17 +77,13 @@ button {
 }
 
 
-.footer {
 
-    height: 200px;
-    background-color: #171616"
-
-}
 
 .footer a {
 
     width: 50px;
     padding-top: 50px;
+    
 }
 
 @media screen and (max-width:1200px) {

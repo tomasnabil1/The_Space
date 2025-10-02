@@ -3,7 +3,9 @@
     margin: 0;
 
 }
-body, html {
+
+body,
+html {
     height: 100%;
     margin: 0;
     overflow-x: hidden
@@ -40,11 +42,21 @@ button {
     border-radius: 20px;
 }
 
-.theEarth p{
+.theEarth p {
     font-size: 15px;
     width: 80%;
     text-align: justify;
     margin: auto;
 }
 
+.footer {
 
+    background-color: #171616"
+
+}
+
+.footer a {
+
+    width: 50px;
+    padding-top: 50px;
+}
