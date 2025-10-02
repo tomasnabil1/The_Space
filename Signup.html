@@ -47,35 +47,49 @@
             <div class="col-5 text-end">
                 <button class=" fs-5 btn text-white">About Us</button>
                 <button class=" fs-5 btn btn-outline-primary" style="color: white;"
-                    onclick="window.location.href='Signup.html'">Sign Up</button>
+                    onclick="window.location.href='Signup.html'" onclick="window.location.href='Signup.html'">Sign
+                    Up</button>
             </div>
         </div>
 
     </div>
     <div class="container text-white signup-form">
         <form>
-            <div class="mb-3">
+            <div class="mb-3 ">
                 <label for="exampleInputEmail1" class="form-label">Name</label>
-                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                <div class="input-group">
+                    <span class="input-group-text "> <i class="fa-solid fa-user"></i></span>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                </div>
             </div>
+
             <div class="mb-3">
                 <label for="exampleInputEmail1" class="form-label">Email Adress</label>
-                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                <div class="input-group">
+                    <span class="input-group-text "> <i class="fa-solid fa-envelope"></i></span>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                </div>
             </div>
             <div class="mb-3">
                 <label for="exampleInputPassword1" class="form-label">Password</label>
-                <input type="password" class="form-control" id="exampleInputPassword1">
+                <div class="input-group">
+                    <span class="input-group-text "> <i class="fa-solid fa-lock"></i></span>
+                    <input type="password" class="form-control" id="exampleInputPassword1">
+                </div>
             </div>
             <div class="mb-3">
                 <label for="exampleInputPassword1" class="form-label">Repeat your Password</label>
-                <input type="password" class="form-control" id="exampleInputPassword1">
+                <div class="input-group">
+                    <span class="input-group-text "> <i class="fa-solid fa-key"></i></span>
+                    <input type="password" class="form-control" id="exampleInputPassword1">
+                </div>
             </div>
             <div class="mb-3 form-check">
                 <input type="checkbox" class="form-check-input" id="exampleCheck1">
                 <label class="form-check-label" for="exampleCheck1">
                     I agree all statements in <a href="#" style="text-decoration: none;">Terms of service</a></label>
             </div>
-            <button type="submit" class="btn btn-primary d-block mx-auto">Submit</button>
+            <button type="submit" class="btn rotate btn-primary d-block mx-auto">Submit</button>
         </form>
     </div>
     <div class="footer">
