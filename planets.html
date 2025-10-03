@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/bondi.css">
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./css/background.css" />
+    <link rel="stylesheet" href="./css/planets.css" />
+    <link rel="website icon" href="./images/logo-sm-white.png" />
+    <title>Earth</title>
+</head>
+
+<body class="bg-black">
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/all.min.js"></script>
+
+    <!-- Background           -->
+    <div class="bg-animation">
+        <div id="stars"></div>
+        <div id="stars2"></div>
+        <div id="stars3"></div>
+        <div id="stars4"></div>
+    </div>
+
+    <!-- Start the navbr -->
+    <div class="container navbar-expand-lg">
+        <div class="row align-items-center p-5">
+            <div class="col-2 text-start ">
+                <img src="./images/logo-sm-white.png" alt="Logo" height="75">
+            </div>
+
+
+            <div class="col-5 text-center">
+                <button class=" fs-5 btn text-white" onclick="window.location.href='index.html'">Home</button>
+                <button class=" fs-5 btn text-white" onclick="window.location.href='earth.html'">Earth</button>
+                <button class=" fs-5 btn  active text-black"
+                    onclick="window.location.href='planets.html'">planets</button>
+                <button class=" fs-5 btn text-white">The Solar</button>
+            </div>
+
+            <div class="col-5 text-end">
+                <button class=" fs-5 btn text-white " onclick="window.location.href='aboutus.html'">About Us</button>
+                <button class=" fs-5 btn btn-outline-primary " style="color: white;"
+                    onclick="window.location.href='Signup.html'">Sign
+                    Up</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div id="carouselExampleRide" class="carousel slide planets" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <!-- 1 - Sun -->
+                <div class="carousel-item active">
+                    <div class="row align-items-center">
+                        <div class="col-md-3 text-light px-3">
+                            <h4>1/9</h4>
+                            <p>The Sun is a medium-sized star at the center of our solar system. It’s composed mainly of
+                                hydrogen and helium...</p>
+                            <a href="#" class="text-primary" style="text-decoration: none;">LEARN MORE</a>
+                        </div>
+                        <div class="col-md-6">
+                            <img src="./images/sun3330.png" class="d-block w-100" alt="Sun">
+                        </div>
+                        <div class="col-md-3 text-light px-3">
+                            <h2>Sun</h2>
+                            <p><strong>Year length:</strong><span id="Year length:"> 4.6 billion years</span></p>
+                            <p><strong>Star Type:</strong> G-type Main-Sequence</p>
+                            <p><strong>Radius:</strong> 696,340 km</p>
+                            <p><strong>Temperature:</strong> ~5,500°C (surface)</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 2 - Mercury -->
+                <div class="carousel-item">
+                    <div class="row align-items-center">
+                        <div class="col-md-3 text-light px-3">
+                            <h4>2/9</h4>
+                            <p>Mercury is the smallest planet in our solar system...</p>
+                            <a href="#" class="text-primary" style="text-decoration: none;">LEARN MORE</a>
+                        </div>
+                        <div class="col-md-6">
+                            <img src="./images/mercury.png" class="d-block w-100" alt="Mercury">
+                        </div>
+                        <div class="col-md-3 text-light px-3">
+                            <h2>Mercury</h2>
+                            <p><strong>Year length:</strong> 88 days</p>
+                            <p><strong>Planet Type:</strong> Terrestrial</p>
+                            <p><strong>Radius:</strong> 2,439 km</p>
+                            <p><strong>Temperature:</strong> ~167°C (average)</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 3 - Venus -->
+                <div class="carousel-item">
+                    <div class="row align-items-center">
+                        <div class="col-md-3 text-light px-3">
+                            <h4>3/9</h4>
+                            <p>Venus is the second planet from the Sun...</p>
+                            <a href="#" class="text-primary" style="text-decoration: none;">LEARN MORE</a>
+                        </div>
+                        <div class="col-md-6">
+                            <img src="./images/venus.png" class="d-block w-100" alt="Venus">
+                        </div>
+                        <div class="col-md-3 text-light px-3">
+                            <h2>Venus</h2>
+                            <p><strong>Year length:</strong> 225 days</p>
+                            <p><strong>Planet Type:</strong> Terrestrial</p>
+                            <p><strong>Radius:</strong> 6,051 km</p>
+                            <p><strong>Temperature:</strong> ~465°C (surface)</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 4 - Earth -->
+                <div class="carousel-item">
+                    <div class="row align-items-center">
+                        <div class="col-md-3 text-light px-3">
+                            <h4>4/9</h4>
+                            <p>Earth is the only known planet to support life...</p>
+                            <a href="#" class="text-primary" style="text-decoration: none;">LEARN MORE</a>
+                        </div>
+                        <div class="col-md-6">
+                            <img src="./images/earth.png" class="d-block w-100" alt="Earth">
+                        </div>
+                        <div class="col-md-3 text-light px-3">
+                            <h2>Earth</h2>
+                            <p><strong>Year length:</strong> 365 days</p>
+                            <p><strong>Planet Type:</strong> Terrestrial</p>
+                            <p><strong>Radius:</strong> 6,371 km</p>
+                            <p><strong>Temperature:</strong> ~15°C (average)</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 5 - Mars -->
+                <div class="carousel-item">
+                    <div class="row align-items-center">
+                        <div class="col-md-3 text-light px-3">
+                            <h4>5/9</h4>
+                            <p>Mars is known as the Red Planet...</p>
+                            <a href="#" class="text-primary" style="text-decoration: none;">LEARN MORE</a>
+                        </div>
+                        <div class="col-md-6">
+                            <img src="./images/mars.gif" class="d-block w-100" alt="Mars">
+                        </div>
+                        <div class="col-md-3 text-light px-3">
+                            <h2>Mars</h2>
+                            <p><strong>Year length:</strong> 687 days</p>
+                            <p><strong>Planet Type:</strong> Terrestrial</p>
+                            <p><strong>Radius:</strong> 3,390 km</p>
+                            <p><strong>Temperature:</strong> ~-63°C (average)</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 6 - Saturn -->
+                <div class="carousel-item">
+                    <div class="row align-items-center">
+                        <div class="col-md-3 text-light px-3">
+                            <h4>6/9</h4>
+                            <p>Saturn is famous for its rings...</p>
+                            <a href="#" class="text-primary" style="text-decoration: none;">LEARN MORE</a>
+                        </div>
+                        <div class="col-md-6">
+                            <img src="./images/saturn.png" class="d-block w-100" alt="Saturn">
+                        </div>
+                        <div class="col-md-3 text-light px-3">
+                            <h2>Saturn</h2>
+                            <p><strong>Year length:</strong> 29 years</p>
+                            <p><strong>Planet Type:</strong> Gas Giant</p>
+                            <p><strong>Radius:</strong> 58,232 km</p>
+                            <p><strong>Temperature:</strong> ~-178°C (average)</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 7 - Jupiter -->
+                <div class="carousel-item">
+                    <div class="row align-items-center">
+                        <div class="col-md-3 text-light px-3">
+                            <h4>7/9</h4>
+                            <p>Jupiter is the largest planet in our solar system...</p>
+                            <a href="#" class="text-primary" style="text-decoration: none;">LEARN MORE</a>
+                        </div>
+                        <div class="col-md-6">
+                            <img src="./images/jupiter.png" class="d-block w-100" alt="Jupiter">
+                        </div>
+                        <div class="col-md-3 text-light px-3">
+                            <h2>Jupiter</h2>
+                            <p><strong>Year length:</strong> 12 years</p>
+                            <p><strong>Planet Type:</strong> Gas Giant</p>
+                            <p><strong>Radius:</strong> 69,911 km</p>
+                            <p><strong>Temperature:</strong> ~-108°C (average)</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 8 - Uranus -->
+                <div class="carousel-item">
+                    <div class="row align-items-center">
+                        <div class="col-md-3 text-light px-3">
+                            <h4>8/9</h4>
+                            <p>Uranus rotates on its side compared to other planets...</p>
+                            <a href="#" class="text-primary" style="text-decoration: none;">LEARN MORE</a>
+                        </div>
+                        <div class="col-md-6">
+                            <img src="./images/Uranus.gif" class="d-block w-100" alt="Uranus">
+                        </div>
+                        <div class="col-md-3 text-light px-3">
+                            <h2>Uranus</h2>
+                            <p><strong>Year length:</strong> 84 years</p>
+                            <p><strong>Planet Type:</strong> Ice Giant</p>
+                            <p><strong>Radius:</strong> 25,362 km</p>
+                            <p><strong>Temperature:</strong> ~-224°C (average)</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 9 - Neptune -->
+                <div class="carousel-item">
+                    <div class="row align-items-center">
+                        <div class="col-md-3 text-light px-3">
+                            <h4>9/9</h4>
+                            <p>Neptune is the farthest planet from the Sun...</p>
+                            <a href="#" class="text-primary" style="text-decoration: none;">LEARN MORE</a>
+                        </div>
+                        <div class="col-md-6">
+                            <img src="./images/Neptune.gif" class="d-block w-100" alt="Neptune">
+                        </div>
+                        <div class="col-md-3 text-light px-3">
+                            <h2>Neptune</h2>
+                            <p><strong>Year length:</strong> 165 years</p>
+                            <p><strong>Planet Type:</strong> Ice Giant</p>
+                            <p><strong>Radius:</strong> 24,622 km</p>
+                            <p><strong>Temperature:</strong> ~-214°C (average)</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="d-flex justify-content-between align-items-center mt-3 px-5">
+                <button class="btn btn-link text-light" style="text-decoration: none;"
+                    data-bs-target="#carouselExampleRide" data-bs-slide="prev">
+                    <i class="fa-solid fa-arrow-left" ></i> <span style="margin-left: 2px;">Pre</span>
+                </button>
+                <button class="btn btn-link text-light" style="text-decoration: none;"
+                    data-bs-target="#carouselExampleRide" data-bs-slide="next">
+                    <span style="margin-right: 2px;">Next</span> <i class="fa-solid fa-arrow-right"></i>
+                </button>
+            </div>
+        </div>
+
+
+
+</body>
