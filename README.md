@@ -13,7 +13,7 @@
  Frontend project to build "The Space" featuring interactive space elements and responsive design.
 
 # Technology Used
-## Front-end
+  Front-end
 - HTML5
 - CSS3
 - JS
