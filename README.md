@@ -18,7 +18,7 @@
 - CSS3
 - JS
 - Bootstrab
-#Brief About the project
+# Brief About the project
 - Build "The Space" website to closely match the design mockup using HTML, CSS, and JavaScript.
 - Implement interactive space-themed elements such as planets, rockets, and animations.
 - Make the website responsive and user-friendly for all screen sizes.
