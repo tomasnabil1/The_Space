@@ -9,8 +9,8 @@
 # Deployed Site
 ## [Space Project](https://tomasnabil1.github.io/The_Space/)
 
-# Summary
-## Frontend project to build "The Space" featuring interactive space elements and responsive design.
+# Summary ## Frontend project to build "The Space" featuring interactive space elements and responsive design.
+
 
 # Technology Used
 ## Front-end
