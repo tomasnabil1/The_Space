@@ -7,4 +7,15 @@
 <img width="1899" height="922" alt="Screenshot 2025-11-27 000113" src="https://github.com/user-attachments/assets/a2edd0a1-116a-456d-9e4a-51937f7fb936" />
 
 # Deployed Site
-##[Space Project](https://tomasnabil1.github.io/The_Space/)
+## [Space Project](https://tomasnabil1.github.io/The_Space/)
+
+# Summary
+## Frontend project to build "The Space" featuring interactive space elements and responsive design.
+
+# Technology Used
+## Front-end
+HTML5
+CSS3
+JS
+Tailwind
+
